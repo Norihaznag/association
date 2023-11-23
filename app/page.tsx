@@ -1,18 +1,15 @@
 import Image from 'next/image'
-import Home from '@/pages/Index'
 import About from '@/pages/About'
 import Donate from '@/pages/Donate'
 import Contact from '@/pages/Contact'
-import Nav from '@/components/Navbar'
+import Ono from '@/components/Ono'
 import './globals.css'
-
+import Mino from '@/components/Mino'
+import Navbar from '@/components/Navbar'
 export default function App() {
   return (
-<div className="Body">
-  <Nav/>
-  <div className="pages">
-    
-  </div>
+<div className="w-screen h-screen  grid justify-center element-center">
+  <Navbar/>
 </div>
   )
 }
